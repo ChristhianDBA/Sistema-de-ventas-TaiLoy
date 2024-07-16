@@ -72,7 +72,8 @@ public class JIJfVentas extends javax.swing.JInternalFrame {
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm");
 
-        return horaActual.format(formatter);
+        System.out.println("Hora");
+        return horaActual.format(formatter);   
     }
 
     /**
